@@ -1,0 +1,18 @@
+= Conclusiones
+
+Tras la entrega del informe y el manual de buenas prácticas, se da por concluido el proyecto. A continuación se resumen las principales conclusiones obtenidas durante el desarrollo del mismo.
+
+Una protección insuficiente de los datos personales puede tener consecuencias muy graves para las personas afectadas, tanto a nivel personal como económico. Por ello, es necesario que las empresas y organizaciones que tratan datos personales adopten las medidas de seguridad adecuadas para protegerlos.
+
+La seguridad de la información es un proceso continuo que debe ser revisado y actualizado periódicamente.
+
+Estos son algunos de los escenarios que puden derivarse de una protección insuficiente de los datos personales:
+
+* *Phishing:* robo de credenciales en el que el autor se hace pasar por una persona o empresa de confianza para engañar a la víctima y que esta revele información confidencial. Cuantos más datos sea capaz de recopilar el atacante, más creíble será el engaño.
+* *Suplantación de identidad:* el atacante se hace pasar por otra persona para realizar acciones en su nombre. 
+* *Estafas:* el atacante se hace pasar por una persona o empresa de confianza para engañar a la víctima y que esta realice una acción que le perjudique económicamente.
+* *Secuestros:* el boom de las redes sociales hizo que muchos usuarios publicaran información personal en ellas sin ser conscientes de las consecuencias que esto podría tener. En algunos casos se ha llegado a producir el secuestro físico de la persona o de algún familiar. Cualquier dato adicional que se facilite públicamente puede ser utilizado por los atacantes para planificar el secuestro. Como ya hemos visto, conociendo el nombre y apellidos de una persona, su fecha de nacimiento y su lugar de residencia, es posible obtener su DNI y con él, el su domicilio.
+
+La implantación de las medidas descritas en el manual de buenas prácticas no garantiza la seguridad de la información, pero sí que reduce el riesgo de que se produzcan incidentes de seguridad.
+
+A su vez, llevar a cabo una transformación digital segura, requiere el apoyo de los entes públicos para la revisión y actualización de la normativa vigente, así como para la creación de nuevas leyes que regulen el tratamiento de los datos personales en el entorno digital.

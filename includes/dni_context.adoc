@@ -1,0 +1,83 @@
+= Contexto del DNI
+
+En 1824, el rey Fernando VII creó la Policía, otorgándole la potestad exclusiva para crear padrones. Esta competencia, la mantiene el Cuerpo Nacional de Policía, quien emite el DNI, el Documento Nacional de Identidad.
+
+El DNI se creó a iniciativa de Francisco Franco, para disponer de información censal de los ciudadanos, y se implantó en 1951.
+
+Se trata de un documento personal e intransferible, obligatorio para cualquier ciudadano español, mayor de 14 años. En contra de la creencia popular, el número de DNI es único para cada individuo, no pudiendo asignarse tampoco el número de una persona fallecida.
+
+Sin embargo, la asignación del número no se digitalizó hasta 1991, por lo que se estima que unas 200.000 personas tenían asignado el mismo número de DNI, erróneamente.
+
+En 1990, a fin de mitigar errores, se implantó la letra de control del DNI, pasando al formato que se mantiene a día de hoy de 8 números y una letra. La letra se calcula a partir del módulo de 23 del número del DNI, siendo 23 las posibles letras.
+
+.Equivalencia del resto con la letra del DNI
+|===
+|Resto |0 |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |11
+|Letra |T |R |W |A |G |M |Y |F |P |D |X |B
+|===
+
+|===
+|Resto |12 |13 |14 |15 |16 |17 |18 |19 |20 |21 |22
+|Letra |N |J |Z |S |Q |V |H |L |C |K |E
+|===
+
+Esta es una muestra de los diferentes documentos nacionales de identidad de los países miembros de la Unión Europea.
+
+image::images/documentos-de-identidad.png[Documentos de identidad]
+
+Más información en https://www.dnielectronico.es/PDFs/Historia_de_los_documentos_de_identidad.pdf[Historia de los DNI 1820-2016].
+
+== Asignación del número del DNI
+
+El primer DNI emitido en España fue el 19103001, a Eva García Ayala, en 1951. Los primeros ciudadanos en tener DNI fueron los valencianos, los madrileños y los zaragozanos.
+
+Los primeros obligados a formalizar este documento fueron los presos y los que permanecían en libertad vigilada. Seguidamente, los hombres que debido a su ocupación, se mudaban de domicilio con frecuencia. Después los varones residentes en ciudades de más de 100.000 habitantes, seguidos de los residentes en ciudades de más de 25.000. Finalmente, las mujeres, siguiendo el mismo orden que se había seguido para los hombres.
+
+Desde su creación a hasta la actualidad, los números se han repartido en lotes a los denominados _equipos de expedición_, consistentes en una comisaría o un equipo móvil. Los equipos móviles, se desplazan por aquellas localidades del territorio español en las que no existe una comisaría. Cada lote cuenta con un margen suficiente de números libres, asignándose al equipo uno nuevo en caso de que se agoten.
+
+== DNI reservados
+
+Los números del 1 al 9, fueron reservados para la familia de Francisco Franco, correspondiéndole a éste el número 1, el 2 a su mujer y el 3 a su hija.
+
+Los números del 10 al 99, están reservados para la Casa Real, excluyendo el 13, que se descartó su uso debido a la superstición del número de la mala suerte.
+
+Según la información publicada en este https://www.elmundo.es/espana/2014/03/05/5307ae3c268e3e282a8b4585.html[artículo] de El Mundo, los primeros lotes repartidos, comprendían los números del 1 al 42.920.000, con los que se preveía cubrir el cupo demográfico de los siguientes 45 años.
+
+Sin embargo, contrastando esta información con el testimonio de un ciudadano al que al que un equipo móvil le asignó un número superior a los 43 millones, entre 1975 y 1980, los demás lotes se repartieron bastante antes de la previsión inicial (o bien el dato del artículo es incorrecto).
+
+== ¿Cuántos DNI se han expedido desde su creación?
+
+Si bien se trata de un número difícil de averiguar con exactitud, podemos tomar de referencia el número de habitantes en España. Redondeándolo, a fecha de 1 de enero de 2022, había 48 millones de habitantes.
+
+.Población española entre 1971 y 2022
+image::images/poblacion.png["Gráfico población española"]
+
+Fuente: https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176951&menu=ultiDatos&idp=1254735572981[INE].
+
+Este dato, incluye los extranjeros. Sin embargo, no incluye los españoles residentes en el extranjero, por lo que se presume para este cálculo que se estaría compensando el número de extranjeros con el de residentes en el extranjero.
+
+Esto lo podríamos contabilizar como 48 millones de DNI en uso actualmente, a lo que le debemos sumar los DNI cuyos titulares han fallecido.
+
+Los datos de defunciones que figuran en el INE, datan a partir de 1992 y rondan las 400.000 defunciones anuales. No obstante, la tendencia es a la baja conforme retrocedemos en el tiempo, puesto que la población en los años 50 también era menor.
+
+.Defunciones en España desde 1992
+image::images/defunciones.png["Gráfico defunciones en España"]
+
+El primer DNI se emitió en 1951. Entre 2022 y 1951 hay 71 años de diferencia, multiplicados por las 400.000 defunciones estimadas, estaríamos hablando de 28.400.000 fallecidos. Este número, muy probablemente sea menor, además que desconocemos si las personas que fallecieron en los primeros años tras emitirse el DNI, disponían de uno o no, además de las muertes prematuras.
+
+Sumando los DNI que podrían estar en curso con los de las personas fallecidas, podrían llegar a ser 76 millones, lo que supone un 76% de la capacidad del formato de numeración actual.
+
+Encontrándose la natalidad sobre los 300.000 nacimientos anuales, este formato podría seguir siendo válido durante los próximos 80 años.
+
+Cabe destacar, que mucha gente no solicitaba la emisión de su DNI, hasta los 14 años, edad en la que es obligatorio tenerlo.
+
+Los casos en los que solía ser más común solicitar su expedición antes de los 14 años, eran viajar a otro país o federarse en alguna federación deportiva. Para viajar dentro del territorio español, no era necesario el DNI para los menores de 14 años, siempre y cuando presentaran el _Libro de familia_, documento que dejó de emitirse en 2021.
+
+[quote,Real Decreto 1553/2005, de 23 de diciembre]
+____
+Artículo 2. Derecho y obligación de obtenerlo.
+
+1. Todos los españoles tendrán derecho a que se les expida el Documento Nacional de Identidad, siendo obligatoria su obtención por los mayores de catorce años residentes en España y para los de igual edad que, residiendo en el extranjero, se trasladen a España por tiempo no inferior a seis meses.
+____
+
+Éste Real Decreto permitió también la expedición del DNI a recién nacidos.

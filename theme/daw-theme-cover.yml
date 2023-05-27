@@ -1,0 +1,16 @@
+extends: default
+cover:
+  front:
+    image: image:../includes/cover.pdf[]
+base:
+  font-size: 11
+footer:
+  recto:
+    right:
+      content: ~
+  verso:
+    left:
+      content: ~
+image:
+  caption:
+    align: inherit

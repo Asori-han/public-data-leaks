@@ -1,0 +1,36 @@
+[glossary]
+= Glosario
+
+[glossary]
+API::
+    (Application Programming Interface) es un conjunto de reglas y funciones que permiten la comunicación entre diferentes aplicaciones de software.
+CLI::
+    (Command Line Interface) es una interfaz de línea de comandos que permite a los usuarios interactuar con un programa o sistema operativo mediante la entrada de comandos de texto
+Docker::
+    Es una plataforma de virtualización a nivel de sistema operativo que permite empaquetar y desplegar aplicaciones en contenedores, ofreciendo una mayor portabilidad y eficiencia en el desarrollo y ejecución de software.
+Dork::
+    Es una cadena de búsqueda especializada utilizada para obtener resultados específicos en motores de búsqueda.
+DoS::
+    (Denial of Service) es un ataque informático que busca saturar los recursos de un sistema o red, impidiendo que los usuarios legítimos puedan acceder o utilizar los servicios correctamente.
+DDoS::
+    (Distributed Denial of Service) es un ataque informático en el que múltiples sistemas se utilizan para sobrecargar un objetivo con una gran cantidad de tráfico, lo que provoca la denegación de servicio.
+Elasticsearch::
+    Es un motor de búsqueda y análisis de datos distribuido y de código abierto. Es ampliamente utilizado para indexar, buscar y analizar grandes volúmenes de datos en tiempo real.
+HUMINT::
+    Se refiere a la obtención de información de inteligencia mediante el contacto y la interacción directa con fuentes humanas, como espías, informantes o entrevistas.
+JSON::
+    (JavaScript Object Notation) es un formato de intercambio de datos ligero y fácilmente legible por humanos y máquinas. Se utiliza para representar estructuras de datos mediante la sintaxis de objetos y arrays, siendo ampliamente utilizado en aplicaciones web y servicios de API.
+Metadato::
+    Información descriptiva adjunta a un archivo para proporcionar detalles como el autor, fecha, formato, entre otros.
+OSINT::
+     (Open Source Intelligence) se refiere a la recopilación y análisis de información de fuentes de acceso público, como redes sociales, sitios web y bases de datos, con el fin de obtener inteligencia y conocimiento sobre un tema específico.
+Phishing::
+    Es un tipo de ataque cibernético en el que los estafadores se hacen pasar por entidades confiables para engañar a las personas y obtener información confidencial, como contraseñas, números de tarjetas de crédito u otra información personal.
+Python::
+    Es un lenguaje de programación interpretado, de alto nivel y de propósito general. Es conocido por su sintaxis clara y legible, y es ampliamente utilizado en el desarrollo de aplicaciones, scripting, análisis de datos, inteligencia artificial y muchas otras áreas de la informática.
+PoC::
+    (Proof of Concept) se refiere a la demostración práctica o evidencia que verifica la viabilidad o funcionamiento de una idea, diseño o concepto antes de su implementación completa.
+RGPD::
+    (Reglamento General de Protección de Datos) es una normativa de la Unión Europea que establece las reglas para la protección de datos personales y la privacidad de los ciudadanos. Se aplica a todas las organizaciones que recopilan, procesan o almacenan datos de personas en la UE.
+Web scraping::
+    Se refiere a la extracción automatizada de datos de sitios web utilizando programas o scripts. Permite obtener información estructurada de manera eficiente a partir del contenido público disponible en la web.

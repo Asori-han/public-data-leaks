@@ -1,0 +1,115 @@
+= Planificación
+
+== Objetivos y plan de gestión del proyecto
+
+. El principal objetivo del presente proyecto es la elaboración de un manual de buenas prácticas para la gestión de documentos, que por su naturaleza deban ser públicos, a fin de minimizar el impacto que pueda tener un mal uso de estos sobre la privacidad de las personas expuestas en ellos.
+. Para la elaboración de dicho manual, se procederá a llevar a cabo una PoC (prueba de concepto, del inglés _proof of concept_) consistente en aplicar técnicas de web scraping sobre las páginas oficiales de algunos organismos públicos del ámbito balear, tales como el Ayuntamiento de Mahón o el Govern Balear.
+. A partir de los datos descargados, se desea realizar un ciclo continuo de inteligencia a fin, el cual consta de 4 fases, que se explican a continuación: +
+* *Dirección:* en esta primera fase, se determinan las necesidades de la inteligencia y se planifican las acciones necesarias para su resolución.
+* *Recolección:* a continuación, se procede a la obtención de información. En este caso, la principal fuente de información serán las páginas oficiales de los organismos auditados, la cual será actualizada conforme se defina en la fase de dirección para obtener los datos que se requieran.
+* *Procesamiento:* en ella, se interpreta la información obtenida y se evalúa. La fiabilidad de la fuente de información solo será necesario evaluarla cuando sea distinta a las páginas corporativas de los diferentes organismos públicos, puesto que la información obtenida a través de estas, se consideraría fiable.
+* *Diseminación:* en esta última fase, se procede a la elaboración de un informe. Al concluirlo, se vuelve a pasar a la fase de dirección.
+. El informe obtenido a partir de la fase de diseminación, será utilizado como punto de referencia para la elaboración del manual de buenas prácticas.
+. Indexar mediante Elasticsearch toda la información descargada en la fase de recolección para poder procesarla.
+
+== Alcance detallado
+
+El alcance del proyecto se detalla a continuación:
+
+. El proyecto se desarrolla entorno al DNI, los NIE extranjeros no son objeto de estudio en este proyecto debido a que adquiriría un mayor grado de complejidad y no sería abarcable en el plazo contemplado para su desarrollo.
+. Se realiza una contextualización del DNI, a fin de entender el funcionamiento de los prefijos, previamente a la realización de cálculos sobre él.
+. En el informe, se analizan algunas fugas de datos en las páginas de la administraciones públicas procedentes de metadatos.
+. El ciclo de inteligencia comienza con la investigación entorno al DNI, prosigue con la investigación de los datos publicados en internet de los que sean prestado voluntarios al efecto y finaliza con la obtención de su domicilio a partir de una fuga de información detectada en la página de la ATIB.
+. Queda fuera del alcance la realización de una auditoría de ciberseguridad, puesto que sería ilegal realizarlo sin el acuerdo previo y por escrito de las páginas auditadas. No obstante, se hace mención de aquellas prácticas detectadas que podrían dar pie a una vulnerabilidad.
+
+[[gestion_tiempo]]
+== Gestión del tiempo
+
+Para la gestión del tiempo, se ha procedido a la agrupación de las tareas a realizar en bloques, a fin de poder realizar una estimación de las jornadas necesarias para completarlas.
+
+Para la realización de las siguientes tareas, será necesario disponer de conexión a internet y un ordenador para cada miembro del equipo (preferiblemente Mac o Linux).
+
+Las tareas que se detallan a continuación pueden ser realizadas por una o varias personas, pudiendo realizarse los bloques 1 y 2 paralelamente. Las tareas de cada bloque deben realizarse en el orden en el que se han redactado.
+
+Para cada tarea, se indica el número de jornadas (8 horas por jornada) de una sola persona previstas para completarla y en cada bloque el total.
+
+Tareas a realizar:
+
+.Bloque 1, tareas relativas al manejo de datos:
+* Definir qué datos se desean extraer de cada organismo. El análisis de qué datos pueden ser relevantes, se realizará sobre el Ayuntamiento de Mahón y el Govern Balear. 1 jornada.
+* Desarrollar un script en Python que extraiga los datos que serán recogidos por Elasticsearch. En caso de no poder extraer los datos por medidas anti-web scraping, se procederá a la extracción manual de información mediante el uso de técnicas de dorking. 2 jornadas.
+* Testear el funcionamiento del script. 1 jornada.
+* Desplegar un servidor Elasticsearch para el manejo de los datos descargados. 2 jornadas.
+* Transformación de los datos obtenidos y cruce de dato entre documentos, por ejemplo: a partir de un DNI, filtrar los datos que tengan relación con éste. 3 jornadas.
+
+Jornadas totales para completar el bloque 1: 9.
+
+.Bloque 2, tareas relativas a investigación y gestoría:
+. Investigar qué sitios no permiten web scraping en sus políticas y si implementan medidas para evitarlo. 2 jornadas.
+. Investigar cómo se asignan los lotes de DNI, cómo identificar su origen y determinar un rango estimado de DNIs asignados en un determinado tiempo. 3 jornadas.
+. Constitución de sociedad sin ánimo de lucro a través de una gestoría. 1 jornada.
+
+Jornadas totales para completar el bloque 2: 6.
+
+.Bloque 3, conclusiones:
+. Redactar el informe. 2 jornadas.
+. Redactar el manual de buenas prácticas. 3 jornadas.
+
+Jornadas totales para completar el bloque 3: 5.
+
+La estimación de jornadas totales para completar la totalidad de las tareas es de 20.
+
+[.center]
+.Diagrama de Gantt de las tareas a realizar
+[plantuml, format=svg]
+----
+include::puml/gantt.puml[]
+----
+
+[[presupuesto]]
+== Presupuesto
+
+Pese a tratarse de una iniciativa sin ánimo de lucro, se prevén las siguientes fuentes de ingresos a fin de sufragar los costes de desarrollo, despliegue y mantenimiento de la misma:
+
+. Patrocinios por parte de empresas privadas, que deseen anunciarse en la web del proyecto como empresas que aplican el manual de buenas prácticas, mejorando así su imagen.
+. Donaciones de personas físicas y jurídicas.
+. Los que se prevean en la Ley de Presupuestos Generales del Estado para asociaciones sin ánimo de lucro.
+
+Se prevén los siguientes gastos:
+
+|===
+|*Concepto* |*Precio unitario* |*Cantidad* |*Importe*
+|Honorarios programador (precio por hora, jornadas de 8 horas) |50,00€	|160 |8.000,00€
+|Alquiler mensual oficina| 400,00€|1 |400,00€
+|MacBook Pro^(*)^ |1.900,00€ |1	|1.900,00€
+|Tarifa mensual internet |50,00€ |1 |50,00€
+|Alojamiento web (bianual) |50,00€ |1 |50,00€
+|Registro dominio (bianual) |20,00€ |1 |20,00€
+|Gastos gestoría (alta asociación sin ánimo de lucro) |800,00€ |1 |800,00€
+|SUBTOTAL 3+|11.220,00€
+|IVA 3+|21,00%
+|*TOTAL* 3+|13.576,20€
+|===
+
+^(*)^ La selección del ordenador se ha realizado en base a la preferencia del desarrollador que realiza este proyecto. En general, salvo para el despliegue de _Elasticsearch_ y el tiempo que pueda llevar la ejecución de scripts que realicen peticiones masivas, no sería necesaria una gran capacidad de computación. Sin embargo, puesto que se entiende que el ordenador no será desechado al concluir su proyecto, sino que será aprovechado para otros proyecto, se ha preferido mayor flexibilidad para el presupuesto en este aspecto.
+
+== Plan de calidad
+
+Se establece un total de 10 personas voluntarias para el tratamiento de sus datos personales, los cuales serán debidamente anonimizados, para contrastar la exactitud de sus datos con los obtenidos mediante la investigación en fuentes abiertas.
+
+Respecto al funcionamiento del código, se establece el uso del patrón de diseño conducido por tests a fin de garantizar su correcto funcionamiento.
+
+[[plan_gestion_riesgos]]
+== Plan de gestión de riesgos
+
+Se establecen los siguientes riesgos y respuestas:
+
+. *Riesgo:* la implementación del script de web scraping ya no se ajusta al contenido de la página web (posible actualización del sitio). Los datos obtenidos podrían ser ligeramente diferentes a los deseados o incluso podría quedar totalmente obsoleto el código para el sitio en cuestión. +
+*Magnitud del riesgo:* media-baja (según la relevancia del sitio y la complejidad de los cambios en el sitio). +
+*Respuesta:* manejo de excepciones en el código para detectar si un sitio no responde correctamente y evitar que quede inoperativo el código para los demás organismos. Incluir en los test unitarios un enlace al documento descargado.
+. *Riesgo:* adopción de medidas anti-web scraping. +
+*Magnitud del riesgo:* baja. +
+*Respuesta:* proceder a incluir el organismo en una lista de organismos que implementan buenas prácticas en la gestión de sus documentos.
+. *Riesgo:* falta de interés por el manual de buenas prácticas por parte del público. +
+*Magnitud del riesgo:* alta. +
+*Respuesta:* difusión en los medios del proyecto, destacando los riesgos que implica no tomar medidas para mitigar las fugas de información, para captar la atención de los políticos y demás autoridades competentes en la gestión de webs de organismos públicos.

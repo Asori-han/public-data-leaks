@@ -1,0 +1,14 @@
+@startuml
+!theme cyborg-outline
+"Cliente" as cl -> "Compañía telefónica" as comp : Solicita alta de servicio (vía teléfono, correo, web o presencial)
+comp -> cl: Realiza oferta
+cl -> comp: Acepta oferta
+comp -> cl: Envía una copia del contrato al buzón de notificaciones electrónicas
+note over cl, comp: El contrato debe incluir la fecha y hora en la que el cliente se puso en contacto con la compañía,\nel método de contacto y el teléfono, correo electrónico o IP desde el que se solicita el servicio,\nen caso de que no se solicite presencialmente
+group El cliente dispone de un teléfono móvil con el certificado digital
+    cl -> comp: Firma del contrato desde el teléfono
+end
+group El cliente no dispone de un teléfono móvil con el certificado digital
+    cl -> comp: Firma del contrato desde el terminal público desde la Administración más cercana
+end
+@enduml

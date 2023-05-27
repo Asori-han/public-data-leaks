@@ -1,0 +1,26 @@
+@startgantt
+-- Bloque 1, manejo de datos --
+[Definir datos a extraer] lasts 1 days
+[Desarrollo script web-scraping] lasts 2 days
+[Testing script] lasts 1 days
+[Despliegue Elasticsearch] lasts 2 days
+[Transformación de datos] lasts 3 days
+[Definir datos a extraer] --> [Desarrollo script web-scraping]
+[Desarrollo script web-scraping] --> [Testing script]
+[Testing script] --> [Despliegue Elasticsearch]
+[Despliegue Elasticsearch] --> [Transformación de datos]
+-- Bloque 2, investigación y gestoría --
+[Investigar webs con anti web-scraping] lasts 2 days
+[Investigar asignación lotes DNI] lasts 3 days
+-- Bloque 3, conclusiones --
+[Redacción informe] lasts 2 days
+[Redacción manual de buenas prácticas] lasts 3 days
+[Redacción informe] --> [Redacción manual de buenas prácticas]
+-- Total --
+[Bloque 1] lasts 9 days
+[Bloque 2] lasts 6 days
+[Bloque 3] lasts 5 days
+[Total] lasts 20 days
+[Bloque 1] --> [Bloque 3]
+[Bloque 2] --> [Bloque 3]
+@endgantt

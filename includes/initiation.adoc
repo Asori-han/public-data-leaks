@@ -1,0 +1,159 @@
+= Iniciación
+
+== Selección del proyecto
+
+La transformación digital es un fenómeno cada vez más presente en nuestras vidas, del que ya prácticamente ningún individuo que viva en sociedad puede escapar.
+
+Entre sus beneficios, podemos destacar la reducción del uso de papel, generando un menor impacto ambiental en el planeta o la simplificación de muchos trámites burocráticos.
+
+Sin embargo, esta transformación no está exenta de riesgos, especialmente, en materia de protección de datos.
+
+La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, establece la obligatoriedad de digitalización de los procedimientos administrativos en el sector público.
+
+En algunos casos, para el cumplimiento de esta ley, se ha priorizado la velocidad de puesta en servicio frente al desarrollo en condiciones de seguridad y de calidad. Este hecho es más común en aquellas administraciones que disponen de una partida presupuestaria mucho más baja que las demás.
+
+Cada vez son más las personas conscientes de hasta qué punto podemos ser controlados debido al volumen de datos personales que circulan por la red.
+
+¿Cuántas veces hemos escuchado la frase "Siri/Alexa nos escucha", porqué alguien se pone a hablar del próximo destino para sus vacaciones y al minuto le sale en la red social de turno una promoción para volar a ese lugar?
+
+La Unión Europea ya se encargó de hacernos saber a todos qué es una _cookie_ en su RGPD y por qué no deberíamos "regalar" nuestros datos a los proveedores de servicios en la red.
+
+Afortunadamente, toda esta información que circula sobre nosotros, está solo al alcance de unos pocos: los gobiernos, las grandes corporaciones tecnológicas y algún que otro ciberdelincuente. Aparentemente, ese seguidor de Instagram al que no conocemos y del cual tampoco sabemos sus intenciones, no tiene manera de saber nada relevante de nosotros.
+
+El presente proyecto es una prueba de concepto, que tiene por objeto exponer los datos que podemos llegar a obtener de una persona a partir de los documentos públicos de las Administraciones Públicas.
+
+La siguiente imagen se ha extraído del siguiente artículo de Kaspersky: https://www.kaspersky.es/about/press-releases/2021_menos-de-un-cafe-es-lo-que-cuesta-tu-historial-medico-en-la-darkweb[Menos de un café es lo que cuesta tu historial médico en la Darkweb].
+
+.Rango de precios de datos sensibles en el mercado negro
+image::images/precios_darkweb.jpg[Rango de precios mercado negro]
+
+De niño, mi madre me habló del https://es.wikipedia.org/wiki/Número_de_Bacon[_Número de Bacon_] y la https://es.wikipedia.org/wiki/Seis_grados_de_separación[teoría de los seis grados de separación], que defiende la conexión entre dos personas de cualquier parte del planeta mediante un máximo de cinco intermediarios.
+
+Mi fascinación por esta teoría a una temprana edad (que me llevó a la conclusión de que al estar todos conectados en un mundo tan pequeño, no hay nada imposible y somos nosotros mismos los que establecemos nuestros propios límites), junto a mi interés por la ciberseguridad, se han acabado materializando en este proyecto alrededor de la investigación en fuentes abiertas.
+
+== Estudio de viabilidad
+
+=== Resumen ejecutivo
+
+El objetivo de este plan de viabilidad es establecer los fundamentos y estrategias para la creación y ejecución de un proyecto de concienciación sobre ciberseguridad en la Administración Pública. La asociación sin ánimo de lucro que se desea constituir tiene como objetivo analizar las fugas de información en el entorno gubernamental y elaborar un manual de buenas prácticas para prevenir y mitigar estos incidentes y concienciar a las instituciones y a la propia ciudadanía.
+
+=== Calificación de oportunidad
+
+La calificación de oportunidad se basa en la premisa de que existen fuentes de financiamiento disponibles para el proyecto, como subvenciones gubernamentales, patrocinios corporativos o donaciones de organizaciones interesadas en la ciberseguridad y la protección de datos.
+
+=== Evaluación de la tecnología disponible
+
+.Python
+Es un lenguaje de programación ampliamente utilizado en el campo de la ciberseguridad debido a su flexibilidad, facilidad de uso y amplia disponibilidad de bibliotecas y frameworks relacionados. Algunos puntos a tener en cuenta son:
+
+* Amplia comunidad: Python cuenta con una gran comunidad de desarrolladores que proporcionan bibliotecas y módulos específicos para tareas relacionadas con la ciberseguridad, como análisis de datos, manipulación de archivos, análisis de vulnerabilidades, entre otros.
+* Scripts personalizados: permite desarrollar scripts personalizados para realizar tareas específicas en el análisis de las fugas de información, como la extracción y el procesamiento de datos.
+* Facilidad de integración: se puede integrar fácilmente con otras tecnologías y sistemas, lo que facilita la conexión con bases de datos, APIs, etc.
+
+.Elasticsearch
+Es una poderosa herramienta de búsqueda y análisis de datos en tiempo real que puede ser muy útil en el contexto del proyecto. Algunos aspectos a considerar son:
+
+* Indexación y búsqueda: permite indexar grandes volúmenes de datos y realizar búsquedas rápidas y eficientes.
+* Análisis de datos: proporciona capacidades de análisis y agregación de datos que pueden ayudar a identificar patrones, tendencias y estadísticas relevantes en relación con las fugas de información.
+
+=== Evaluación de las capacidades propias
+
+La asociación cuenta con el promotor del proyecto, que es el encargado de la investigación y el desarrollo, capaz de llevar a cabo el análisis de las fugas de información y la elaboración del manual de buenas prácticas.
+
+Además, en un futuro se puede contar con expertos en ciberseguridad para brindar asesoramiento y capacitación a los empleados de la Administración Pública.
+
+[[evaluacion_inicial_coste_beneficio]]
+=== Evaluación inicial del coste-beneficio
+
+En el <<presupuesto, presupuesto>>, se prevén unos gastos de 13.576,20€, de los cuales, 9.620€ son los honorarios del desarrollador. Puesto que se trata de una iniciativa sin ánimo de lucro que yo mismo, como desarrollador, puedo llevar a cabo, los honorarios pueden ser sufragados dentro de los dos primeros años de vida del proyecto, en vez de tener que hacerlo en el primer mes.
+
+El pago del ordenador se fraccionará en 24 meses sin intereses, de acuerdo con la oferta de financiación de Apple.
+
+De este modo, se requerirían alrededor 4.000€ para comenzar el proyecto.
+
+En caso de existir superávit, se destinarían los fondos a la promoción y divulgación del proyecto y a otros proyectos relacionados con la ciberseguridad.
+
+.Previsión de ingresos y gastos para los dos primeros años de vida del proyecto
+* Mes 1:
+** Gastos: 579,80€ (alquiler de oficina, ordenador y acceso a internet).
+** Ingresos: 500€ (donaciones, patrocinios y subvenciones).
+* Mes 2:
+** Gastos: 1.518,75€ (gestoría, hosting, registro del dominio, honorarios desarrollador y ordenador).
+** Ingresos: 500€ (donaciones, patrocinios y subvenciones).
+* Meses 3-6:
+** Gastos: 1.622,20€ (honorarios desarrollador y ordenador).
+** Ingresos: 2.000€ (donaciones, patrocinios y subvenciones).
+* Meses 7-12:
+** Gastos: 2.897,94€ (honorarios desarrollador y ordenador).
+** Ingresos: 3.300€ (donaciones, patrocinios y subvenciones).
+* Meses 13-18:
+** Gastos: 2.897,94€ (honorarios desarrollador y ordenador).
+** Ingresos: 4.120€ (donaciones, patrocinios y subvenciones).
+* Meses 19-24:
+** Gastos: 4.059,54€ (honorarios desarrollador y ordenador).
+** Ingresos: 5.100€ (donaciones, patrocinios y subvenciones).
+
+Superávit: 1.923,80€
+
+.Previsión ingresos y gastos
+[gnuplot, format=svg]
+----
+include::plots/cashflow.plot[]
+----
+
+=== Identificación de los riesgos
+
+Existen riesgos potenciales, como la posible resistencia al cambio dentro de las instituciones gubernamentales, la necesidad de mantenerse actualizado en cuanto a las regulaciones y estándares en constante evolución, y la competencia con otras iniciativas similares en el sector.
+
+Sin embargo, estos riesgos pueden abordarse mediante una estrategia de comunicación efectiva, la colaboración con los actores relevantes y la diferenciación del proyecto a través de un enfoque específico en la Administración Pública.
+
+=== Objetivos generales y específicos
+
+. La elaboración de un manual de buenas prácticas para mitigar fugas de información en la Administración Pública.
+
+. La redacción de un informe de las deficiencias detectadas en las páginas web de las diferentes administraciones, que servirá de base para el manual de buenas prácticas.
+
+. Estudiar el funcionamiento de la numeración del DNI y proponer alternativas a la publicación del DNI en procedimientos públicos.
+
+=== Evaluación del tiempo y el coste
+
+La evaluación del tiempo y el coste es fundamental para determinar la viabilidad del proyecto de concienciación sobre ciberseguridad en la Administración Pública. A continuación, se presenta una evaluación preliminar:
+
+. Tiempo: se prevé el plazo de un mes para la realización de las siguientes tareas:
+* Análisis de fugas de información existentes: realizar investigaciones en las instituciones gubernamentales seleccionadas.
+* Desarrollo del manual de buenas prácticas: recopilar y sintetizar las mejores prácticas en ciberseguridad y adaptarlas al entorno de la Administración Pública, destacando las malas prácticas detectadas.
+
+. Coste:
+Recursos humanos: Estimar los costes salariales y de contratación del equipo de investigación y desarrollo.
+Recursos técnicos: Considerar los costes asociados con el acceso a herramientas y tecnologías necesarias para llevar a cabo las tareas indicadas.
+
+Tras la <<evaluacion_inicial_coste_beneficio, evaluación inicial del coste-beneficio>>, se estima que el proyecto es viable.
+
+== Identificación de interesados
+
+Principalmente, las Administraciones Públicas, puesto que la prueba de concepto se realizará a partir de la información disponible públicamente en las páginas web de estas.
+
+Adicionalmente, los ciudadanos son también potenciales interesados debido a que conocer los peligros a los que pueden estar expuestos, puede contribuir a exigir una protección eficaz, tanto en el sector público como en el privado. Y por supuesto, los propios desarrolladores somos parte de los interesados.
+
+== Definición inicial
+
+*Descargo de responsabilidad:* las técnicas y procedimientos que se muestran en este proyecto, no pretenden fomentar ningún tipo de comportamiento delictivo. La responsabilidad de cualquier acto incívico, antisocial o ilegal derivado de un mal uso del proyecto, será en todo caso del autor de dicho comportamiento.
+
+Mediante el uso de OSINT (rama de la ciberseguridad dedicada a la investigación en fuentes abiertas), se expondrán diferentes fugas de información en el sector público, concretamente en el balear.
+
+Algunas administraciones, como el Govern Balear o el Ayuntamiento de Mahón, utilizan alguna práctica poco (o nada) recomendada en materia de ciberseguridad, como la asignación secuencial de nombres de archivo o no controlar la cantidad de peticiones recibidas.
+
+Por ello, en una primera fase, se utilizará la técnica de web scraping sobre los archivos públicos de la página web del Ayuntamiento de Mahón, realizando una petición de descarga de todos aquellos archivos que coincidan con una expresión regular.
+
+También se realizarán búsquedas manuales en los principales motores de búsqueda mediante el uso de _dorks_, se explicará la utilidad del archivo _robots.txt_ y cómo aplican los diferentes buscadores el "derecho al olvido".
+
+En una fase posterior, se procesarán los documentos _pdf_ descargados de la página del ayuntamiento mediante un _Elasticsearch_ desplegado en _Docker_.
+
+Una vez tratada la información, se explicarán algunos detalles del funcionamiento de los DNI y se demostrará cómo desenmascarar un DNI "anonimizado" mediante el uso de asteriscos (\*\**0000**).
+
+Una vez obtenido el número de DNI, se utilizará la API de la Agencia Tributaria de las Islas Baleares para obtener el domicilio de una persona a partir del DNI.
+
+Por último, la entrega del proyecto consistirá en:
+
+* Informe de OSINT.
+* Manual de buenas prácticas para la prevención de fugas de información.

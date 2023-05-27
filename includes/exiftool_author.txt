@@ -1,0 +1,154 @@
+cat docs/exiftool_output.txt | grep -i "author"
+Author                          : a
+Author                          : acer
+Author                          : Administrador
+Author                          : Agencia Estatal Boletín Oficial del Estado
+Author                          : Agencia Estatal de Administración Tributaria (AEAT). ©2016 http://www.agenciatributaria.es
+Author                          : Agente
+Author                          : AGUE
+Author                          : Agueda Reynés Calvache
+Author                          : Aina
+Author                          : Ainhoa Goñi
+Author                          : Ajmao
+Author                          : ajuntament de mao
+Author                          : Ajuntament de Maó
+Author                          : Ajuntament de Maó.
+Author                          : Ajuntament Mao
+Author                          : Ajuntament1
+Author                          : Albert Monter Ros
+Author                          : ALCALDIA
+Author                          : alfonso
+Author                          : Alfonso Aznar García
+Author                          : alom
+Author                          : Ana Lía Noval García
+Author                          : Andres Spitzer
+Author                          : Angel
+Author                          : angeles
+Author                          : anova_000
+Author                          : Antonio
+Author                          : Area de Cultura
+Author                          : Arnold
+Author                          : Assumpta Piris
+Author                          : AY5
+Author                          : AYD02
+Author                          : Bartomeu Pons Pons
+Author                          : BEATRIZ ESTOPIÑAN GONZALEZ
+Author                          : becari
+Author                          : becaris
+Author                          : Borja
+Author                          : Carol Cardona
+Author                          : Centor
+Author                          : CLEMEN
+Author                          : CLH
+Author                          : comptabilitat
+Author                          : comunicacio
+Author                          : Conxa Juanola
+Author                          : csantamaria
+Author                          : csegui
+Author                          : cultura
+Author                          : CURSOS
+Author                          : Dani
+Author                          : Darkside Archives
+Author                          : División Agua y Saneamiento
+Author                          : earguimbau
+Author                          : EDUCACIO
+Author                          : elena
+Author                          : elisabet
+Author                          : ELSA
+Author                          : enrique
+Author                          : Francesc
+Author                          : Francesc Farrés
+Author                          : gedas
+Author                          : Gomez Jimenez, Oscar
+Author                          : gore
+Author                          : Hector Pons
+Author                          : imanzano
+Author                          : ISA
+Author                          : isabel leon martinez
+Author                          : Isabel Manzano
+Author                          : Ivan Barber
+Author                          : Javi
+Author                          : jenina
+Author                          : Jesús Camps
+Author                          : jmarroig
+Author                          : JOAN FLORIT PUJOL
+Author                          : joan sans
+Author                          : Joan Toni Ramonell
+Author                          : Jordi
+Author                          : Jordi Orell Villalonga
+Author                          : Jose Luis
+Author                          : José Manuel (Tete)
+Author                          : JOSE MARIA
+Author                          : José María Almuzara
+Author                          : Josèp Garriga
+Author                          : Joves Q Serveis Juridics
+Author                          : jsans
+Author                          : Juan Carlos Roca Gonzalez
+Author                          : judith
+Author                          : jxamena
+Author                          : Laura Balmes Ruiz
+Author                          : Logistica
+Author                          : Mac
+Author                          : maltes
+Author                          : Manel
+Author                          : María José Ferri Vizcaíno
+Author                          : Maria Luisa Huguet
+Author                          : MARIAN
+Author                          : Marta Pérez
+Author                          : master
+Author                          : mcarles
+Author                          : medi ambient
+Author                          : MGD
+Author                          : MICASA
+Author                          : Microsoft Corporation
+Author                          : MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO
+Author                          : miquel
+Author                          : Miquel Petrus Canus
+Author                          : Model Grafic S.L
+Author                          : Mónica Clariana Nicolau
+Author                          : Monica Dominguez
+Author                          : Mónica Mercadal Pons
+Author                          : natàlia
+Author                          : Natxo
+Author                          : Nova Elena Poveda Taboada
+Author                          : oac
+Author                          : Online2PDF.com
+Author                          : Pablo
+Author                          : Patricia Ostos
+Author                          : Pau
+Author                          : pc
+Author                          : Pere Pons
+Author                          : Policia
+Author                          : POLIESPORTIU
+Author                          : POLIESPORTIU2
+Author                          : puesto1
+Author                          : quintana
+Author                          : Ramón
+Author                          : rbassa
+Author                          : Rita Pons Pons
+Author                          : Roger Bosch Segarra
+Author                          : roger vidal
+Author                          : S017873
+Author                          : sblanco
+Author                          : SEBASTIA
+Author                          : secretaria
+Author                          : Serveis Socials
+Author                          : SIL-JMR
+Author                          : Silvia Fiol
+Author                          : susana
+Author                          : Tiago
+Author                          : TIM QUEVEDO
+Author                          : tomeu
+Author                          : Toni Pomar
+Author                          : u103787
+Author                          : u690339
+Author                          : u80766
+Author                          : uib
+Author                          : User
+Author                          : usuario
+Author                          : Usuario Autorizado
+Author                          : Víctor Dengra
+Author                          : win
+Author                          : windows
+Author                          : Windows User
+Author                          : xgenestar

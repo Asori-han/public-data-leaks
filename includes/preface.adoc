@@ -1,0 +1,13 @@
+[quote, Chema Alonso,Do the BASICS: Do IT right!]
+No hay segundas oportunidades para proteger los datos de tus clientes.
+
+---
+
+:sectnums!:
+[dedication%notitle]
+== Dedicatoria
+
+[.text-right]
+Per na Tania
+
+<<<

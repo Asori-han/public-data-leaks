@@ -1,0 +1,133 @@
+{
+  "regions": [
+    {
+      "name": "Andalucía",
+      "codes": [
+        "08",
+        "24",
+        "25",
+        "27",
+        "44",
+        "49",
+        "50",
+        "54",
+        "74",
+        "75",
+        "76",
+        "77"
+      ]
+    },
+    {
+      "name": "Baleares",
+      "codes": [
+        "41",
+        "42",
+        "43",
+        "78"
+      ]
+    },
+    {
+      "name": "Canarias",
+      "codes": [
+        "45"
+      ]
+    },
+    {
+      "name": "Cantabria",
+      "codes": [
+        "13",
+        "72",
+        "71"
+      ]
+    },
+    {
+      "name": "Castilla y León",
+      "codes": [
+        "14",
+        "71"
+      ]
+    },
+    {
+      "name": "Castilla-La Mancha",
+      "codes": [
+        "00",
+        "70"
+      ]
+    },
+    {
+      "name": "Cataluña",
+      "codes": [
+        "21",
+        "25",
+        "34",
+        "37",
+        "40",
+        "47",
+        "78"
+      ]
+    },
+    {
+      "name": "Comunidad Valenciana",
+      "codes": [
+        "21",
+        "44",
+        "48"
+      ]
+    },
+    {
+      "name": "Extremadura",
+      "codes": [
+        "06"
+      ]
+    },
+    {
+      "name": "Galicia",
+      "codes": [
+        "34",
+        "35",
+        "46",
+        "76",
+        "77"
+      ]
+    },
+    {
+      "name": "Comunidad de Madrid",
+      "codes": [
+        "00",
+        "02",
+        "05",
+        "06",
+        "11",
+        "25",
+        "47",
+        "50",
+        "51",
+        "53",
+        "54",
+        "70"
+      ]
+    },
+    {
+      "name": "Murcia",
+      "codes": [
+        "23",
+        "48"
+      ]
+    },
+    {
+      "name": "Navarra",
+      "codes": [
+        "72",
+        "78"
+      ]
+    },
+    {
+      "name": "País Vasco",
+      "codes": [
+        "16",
+        "30",
+        "45"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+= Seguimiento y control
+
+== Seguimiento y control de trabajo
+
+El desarrollo del proyecto se ha llevado a cabo de manera satisfactoria en su conjunto. No ha habido ningún impedimento ni retraso que haya supuesto un cambio significativo para el proyecto.
+
+En los siguientes apartados, se procede a una explicación detallada del seguimiento y control.
+
+== Control de cambios
+
+Para el control de cambios se ha utilizado la plataforma https://github.com[Github]. Como procesador de texto, se ha utilizado https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor], una herramienta gratuita que permite renderizar documentos a partir de texto plano en vez de un archivo binario (como los que utiliza Word), lo cual facilita su integración con Github al hacer que los cambios sean legibles desde la propia web.
+
+Por otro lado, el proyecto se ha desarrollado según la planificación establecida, salvo en dos aspectos:
+
+* Despliegue del servidor Elasticsearch: se ha omitido este paso debido a que para la PoC, los datos que se deseaban procesar de los PDFs eran exclusivamente los DNIs. Tras la realización de varias pruebas en el manejo de los datos extraídos, se ha considerado suficiente el uso de scripts de Python para el volumen de datos que se han procesado.
+* Automatización de consultas en la ATIB: tras constatar que la página de la ATIB implementa medidas antibots (captchas), se ha valorado relación esfuerzo-resultado de la automatización de las consultas. La criba de DNIs mediante prefijos, reduce significativamente los DNIs a validar, considerando que para la PoC es más rentable validar los DNIs manualmente que eludir las medidas antibots para poder cumplir con los plazos de entrega establecidos.
+
+== Control de alcance
+
+Se ha utilizado la herramienta https://www.atlassian.com/es/software/jira[Jira], que permite la creación de tíquets. Se ha creado un tíquet para cada una de las tareas previstas inicialmente en la planificación.
+
+Una vez finalizado el proyecto, el alcance se ha ajustado correctamente al planificado.
+
+== Control de calendario
+
+Para la gestión y el registro del tiempo, también se ha utilizado Jira, asignando una estimación de duración para cada tarea y registrando en ella las horas efectivas realizadas.
+
+De las 9 jornadas previstas para completar el bloque 1, definido en <<gestion_tiempo>>, han sido necesarias 6: el no despliegue de Elasticsearch, ha supuesto un ahorro de dos jornadas, mientras que el desarrollo del script de extracción de datos se ha completado en una sola jornada en vez de dos.
+
+El bloque 2, se ha extendido una jornada respecto a la previsión inicial, habiendo necesitado un total de cuatro jornadas en vez de tres para la investigación de los DNIs.
+
+Finalmente, el desarrollo del bloque 3 ha concluido una jornada antes de lo previsto. La redacción del manual de buenas prácticas ha implicado dos jornadas en vez de tres.
+
+El balance total son 17 jornadas empleadas de las 20 previstas.
+
+[[control_costes]]
+== Control de costes
+
+Para el control de costes, se ha utilizado la herramienta https://ledger-cli.org/[Ledger] junto a Jira, de donde se han cuantificado las horas trabajadas, que suponen el concepto más significativo del presupuesto.
+
+El ahorro de 3 jornadas, ha conllevado una reducción del coste en concepto de honorarios de programador de 1.200€ (sin IVA).
+
+El aprovechamiento de una promoción sobre el MacBook Pro ha supuesto también un ahorro 300€ (sin IVA).
+
+El coste final del proyecto es de: 9.720€ (11.761,20€ con IVA).
+
+== Control de calidad
+
+Tras analizar y revisar la información tratada, para poder asegurar una óptima en los resultados del proyecto, se deben considerar los siguientes sesgos:
+
+.Cálculo del prefijo del DNI
+Si bien es cierto que el prefijo del DNI no determina la edad de una persona ni su lugar de nacimiento o, dicho de otro modo, a partir de la edad de una persona y su lugar de nacimiento no se puede determinar el prefijo su DNI, en la mayoría de casos sí que podemos establecer una aproximación.
+
+En el caso de los extranjeros que obtuvieron la nacionalidad española pasados los 14 años de edad, sería más complicado calcular el prefijo. Puesto que los datos más significativos para el cálculo serían dónde vivían cuando obtuvieron la nacionalidad y en qué año lo hicieron.
+
+.Falsos positivos entre los DNIs extraídos
+Los DNIs se han extraído masivamente a partir de PDFs, mediante el uso de una expresión regular, lo que puede dar pie a falsos positivos. Para filtrar el mayor número de falsos positivos posible, durante la extracción de los DNIs de cada PDF, el script comprueba que la letra sea válida para ese DNI.
+
+Se han detectado algunos falsos positivos entro los DNIs que se han extraído de los PDFs. Todos ellos son números de hasta cinco cifras, precedidos por varios ceros y seguidos de alguna letra (coincidiendo así con la expresión regular establecida).
+
+.Listado de falsos positivos
+[source]
+----
+00000003A
+00000020C
+00000023T
+00000112C
+00000164A
+00000529T
+00000710C
+00001038A
+00001660G
+00001728A
+00001751A
+00002236M
+00002377P
+00002441A
+00002464A
+00002514F
+00002665C
+00002669R
+00002690E
+00002703N
+00002711C
+00002717A
+00002734C
+00002744F
+00002752S
+00002780C
+00002828E
+00002832A
+00002833G
+00002849C
+00002905F
+00002924A
+00002936S
+00002947A
+00003012E
+00003018M
+00003189S
+00003270G
+00003296F
+00003365F
+00003501M
+00003545A
+00003585C
+00003649S
+00003727R
+00003741S
+00003764S
+00003773R
+00003787S
+00003802F
+00003806B
+00003814L
+00003868G
+00003990B
+00004005A
+00004009F
+00004056P
+00004442A
+00004462T
+00004651M
+00004653F
+00004735C
+00004755V
+00004804C
+00004810A
+00004971A
+00004972G
+00004994A
+00005132A
+00005182F
+00005224A
+00005236S
+00005333C
+00005374S
+00005406R
+00005505P
+00005546A
+00005615A
+00006150D
+00006190A
+00006271S
+00006370E
+00006374A
+00006424F
+00006494P
+00006524S
+00006535A
+00006537M
+00006558A
+00006560M
+00006586P
+00006587D
+00006627A
+00006652M
+00006666L
+00006685S
+00006690C
+00006698M
+00006731S
+00006735L
+00006744M
+00006765A
+00006794D
+00006834A
+00006884F
+00006915S
+00006920C
+00006938S
+00007018A
+00007058C
+00007110A
+00007133A
+00007227M
+00007241L
+00007265C
+00007276P
+00007283S
+00007340A
+00007409A
+00007500W
+00007712F
+00007771C
+00007800A
+00007846A
+00008053A
+00008076A
+00008168A
+00008185C
+00010004E
+00035000V
+00090000R
+----
+
+La gran mayoría de falsos positivos, se corresponden un número de factura y la letra, con el nombre de la empresa, que justamente era el siguiente carácter, coincidiendo en algunos casos con un DNI válido.
+
+.Facturas que han provocado algunos falsos positivos
+image::images/falso_positivo.png[Falso positivo]
+image::images/falso_positivo2.png[Falso positivo]
+image::images/falso_positivo3.png[Falso positivo]
+image::images/falso_positivo4.png[Falso positivo]
+
+El primer número bajo que no ha sido un falso positivo ha sido el que se muestra en este fragmento de PDF:
+
+.Número de DNI más bajo encontrado
+image::images/dni_correcto.png[DNI correcto]
+
+.Colisiones entre DNIs anonimizados
+Aplicando una anonimización estándar, las probabilidades de que dos DNIs distintos coincidan con una misma anonimización, son de 1 entre 10.000 (puesto que se ocultan 4 cifras y la letra).
+
+A partir de la lista de DNIs sin anonimizar obtenidos de las páginas de Baleares, un total de 18.612, y de la lista de DNIs anonimizados (417 excluyendo aquellos que muestran el prefijo y ocultan el sufijo, puesto que la probabilidad de colisión es mucho mayor) del Ayuntamiento de Mahón, se ha lanzado el siguiente script para comprobar cuántos DNIs podían ser desanonimizados. Se han conseguido desenmascarar un total de 566 DNIs, lo que se traduce en al menos un total de 149 colisiones.
+
+.Comprobar coincidencias entre DNIs
+[source, python]
+----
+include::../scripts/dni_searcher.py[]
+----
+
+.Salida de muestra de coincidencias
+[source]
+----
+***0837** matches with 41508377R
+***0842** matches with 41508422T
+***0935** matches with 41509351D
+***0944** matches with 41509441F
+***0994** matches with 41509945M
+***1019** matches with 41510191K
+----
+
+En total, 71 anonimizaciones han coincidido con 2 DNIs; 47 con 3 DNIs; 23 con 4 DNIs; 11 con 5 DNIs; 5 con 6 DNIs; 1 con 8 DNIs; y 1 con 9 DNIs. Siendo 477 el total de colisiones entre 159 anonimizaciones (38,13% del total) y 258 las anonimizaciones (61,87%) con un sólo DNI candidato.
+
+== Seguimiento y control de riesgos
+
+De los riesgos contemplados en el <<plan_gestion_riesgos>>, el único con el que se ha tenido que lidiar ha sido el de la adopción de medidas anti-web scraping, por parte de la ATIB únicamente.
+
+En lo que se refiere a la posible falta de interés por el manual de buenas prácticas, a falta de concretar una fecha para la presentación al público, el proyecto ha suscitado bastante interés, en especial a aquellos políticos de carácter insular a los que se le ha comentado la propuesta, llegando a ofrecerse ellos mismos para la gestión de la reserva de un sala polivalente para la realización de la presentación.
+
+== Administración y gestión de compras
+
+La gestión de compras ha sido realizada por el propio programador. Siendo los proveedores los siguientes:
+
+* Apple España: venta directa del MacBook Pro, por teléfono.
+* Telefónica: conexión de fibra óptica.
+* Wesped: servicio de hosting y registro de dominio.
+* Portal Menorca: prestación de servicios inmobiliarios para el alquiler del estudio.
+* Gestoría Orfila: alta de la asociación.

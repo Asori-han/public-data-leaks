@@ -1,0 +1,406 @@
+[[annexe]]
+= Anexo
+
+[[oficinas_dni]]
+== Oficinas de expedición del DNI
+
+.A Coruña
+* A Coruña
+* A Coruña-Lonzas
+* Carballo
+* Ferrol
+* Ribeira
+* Santiago de Compostela
+
+.Albacete
+* Albacete
+* Hellín
+
+.Alicante/Alacant
+* Alacant/Alicante
+* Alcoy/Alcoi
+* Benidorm
+* Dénia
+* Elche/Elx
+* Elda
+* Orihuela
+* Torrevieja
+
+.Almería
+* Almería
+* El Ejido
+* Húercal-Overa
+* Roquetas de Mar
+
+.Araba/Álava
+* Vitoria-Gasteiz
+
+.Asturias
+* Oviedo
+* Gijón-1
+* Gijón-2
+* Avilés
+* Langreo
+* Luarca
+* Lugones
+* Mieres
+* Siero
+
+.Ávila
+* Ávila
+
+.Badajoz
+* Badajoz
+* Almendralejo
+* Don Benito
+* Mérida
+* Villanueva de la Serena
+* Zafra
+
+.Barcelona capital
+* Barcelona-Rambla de Guipúscoa
+* Barcelona-Balmes II
+* Barcelona (Plaça d'Espanya)
+* Barcelona-Sant Andreu
+* Barcelona-Sant Antoni Maria Claret
+* Barcelona-Trafalgar
+* Barcelona-Zonal 4 (Nou Barris)
+
+.Barcelona provincia
+* Badalona
+* Castelldefels
+* Cerdanyola del Vallès
+* Cornellà de Llobregat
+* Granollers
+* L'Hospitalet de Llobregat
+* Igualada
+* Manresa
+* Mataró
+* Montcada i Reixac
+* El Prat de Llobregat
+* Ripollet
+* Rubí
+* Sabadell
+* Sant Adrià de Besòs
+* Sant Boi de Llobregat
+* Sant Cugat del Vallès
+* Sant Feliu de Llobregat
+* Santa Coloma de Gramanet
+* Terrassa
+* Vic
+* Viladecans
+* Vilafranca del Penedès
+* Vilanova i la Geltrú
+
+.Bizkaia
+* Bilbao
+* Barakaldo
+* Basauri
+* Getxo
+* Sestao-Portugalete
+
+.Burgos
+* Burgos
+* Aranda de Duero
+* Miranda de Ebro
+
+.Cáceres
+* Cáceres
+* Plasencia
+* Valencia de Alcántara
+
+.Cádiz
+* Cádiz
+* Algeciras
+* Chiclana de la Frontera
+* Jerez de la Frontera
+* La Línea de la Concepción
+* Puerto Real
+* Puerto de Santa María
+* Rota
+* San Fernando
+* Sanlúcar de Barrameda
+
+.Cantabria
+* Santander-1
+* Santander-2
+* Castro Urdiales
+* Torrelavega
+
+.Castellón/Castelló
+* Castellón de la PLana/Castelló de la Plana
+* Vila-Real
+* Vinaròs
+
+.Ceuta
+* Ceuta
+
+.Ciudad Real
+* Ciudad Real
+* Alcázar de San Juan
+* Puertollano
+* Tomelloso
+* Valdepeñas
+
+.Córdoba
+* Córdoba-1
+* Córdoba-2 (Parque Figueroa)
+* Cabra
+* Lucena
+
+.Cuenca
+* Cuenca
+* Tarancón
+
+.Gipuzkoa
+* Donostia-San Sebastián
+* Eibar
+* Irún
+
+.Girona
+* Girona
+* Camprodón
+* Figueres
+* La Jonquera
+* Lloret de Mar
+* Portbou
+* Puigcerdà
+* Sant Feliu de Guíxols
+
+.Granada
+* Granada-Centro
+* Granada-Norte
+* Granada-Sur
+* Baza
+* Motril
+
+.Guadalajara
+* Guadalajara
+
+.Huelva
+* Huelva
+* Ayamonte
+
+.Huesca
+* Huesca
+* Fraga
+* Jaca
+* Monzón
+
+.Illes Balears
+* Palma
+* Palma-Oeste
+* Ciutadella de Menorca
+* Eivissa
+* Maó
+* Manacor
+
+.Jaén
+* Jaén
+* Andújar
+* Linares
+* Úbeda
+
+.La Rioja
+* Logroño
+* Calahorra
+
+.Las Palmas
+* Las Palmas
+* Las Palmas-Centro (7 Palmas)
+* Arrecife de Lanzarote
+* Maspalomas
+* Puerto del Rosario
+* Santa Lucía de Tirajana
+* Telde
+* Tuineje
+
+.León
+* León
+* Astorga
+* Ponferrada
+* San Andrés del Rabanedo
+
+.Lleida
+* Lleida
+* Les
+* La Seu d'Urgell
+
+.Lugo
+* Lugo
+* Monforte de Lemos
+* Viveiro
+
+.Madrid capital
+* DD-Madrid-Santa Engracia
+* Madrid-Arganzuela
+* Madrid-Carabanchel
+* Madrid-Centro
+* Madrid-Chamartín
+* Madrid-Ciudad Lineal
+* Madrid-Fuencarral-El Pardo
+* Madrid-San Felipe
+* Madrid-Latina
+* Madrid-Doce de Octubre
+* Madrid-Puente de Vallecas
+* Madrid-San Blas
+* Madrid-Tetuán
+* Madrid-Usera-Vilaverde 1
+* Madrid-Usera-Vilaverde 2
+* Madrid-Villa de Vallecas
+
+.Madrid provincia
+* Alcalá de Henares
+* Alcobendas
+* Alcorcón
+* Aranjuez
+* Arganda del Rey
+* Collado-Villalba
+* Coslada
+* Fuenlabrada
+* Getafe
+* Leganés
+* Majadahonda
+* Móstoles
+* Parla
+* Pozuelo de Alarcón
+* Rivas-Vaciamadrid
+* Torrejón de Ardoz
+* Valdemoro
+
+.Málaga
+* Málaga
+* Málaga-Centro
+* Málaga-Norte
+* Málaga-El Palo
+* Antequera
+* Benalmádena
+* Estepona
+* Fuengirola
+* Marbella
+* Ronda
+* San Pedro de Alcántara
+* Torremolinos
+* Velez-Málaga
+
+.Melilla
+* Melilla
+
+.Murcia
+* Murcia-1 (Isaac Albeniz)
+* Murcia-2 (Ceballos)
+* Murcia-El Carmen
+* Alcantarilla
+* Cartagena
+* Lorca
+* Molina de Segura
+* Yecla
+
+.Navarra
+* Pamplona
+* Tudela
+
+.Ourense
+* Ourense
+* O Barco de Valdeorras
+* Verín
+
+.Palencia
+* Palencia
+
+.Pontevedra
+* Pontevedra
+* Lalín
+* Marín
+* Salvaterra de Miño
+* Tui
+* Vigo
+* Vilagarcía de Arousa
+
+.Salamanca
+* Salamanca
+* Béjar
+* Fuentes de Oñoro
+
+.S.C. Tenerife
+* Santa Cruz de Tenerife Norte
+* Santa Cruz de Tenerife
+* La Laguna
+* Puerto de la Cruz
+* San Sebastián de la Gomera
+* Santa Cruz de la Palma
+* Sur de Tenerife
+* Valverde de El Hierro
+
+.Segovia
+* Segovia
+
+.Sevilla
+* Sevilla-1-Centro
+* Sevilla-Este
+* Sevilla-Macarena
+* Sevilla-Tablada
+* Sevilla-Triana
+* Alcalá de Guadaira
+* Camas
+* Coria del Río
+* Dos Hermanas
+* Ecija
+* Morón de la Frontera
+* San Juan de Aznalfarache
+
+.Soria
+* Soria
+
+.Tarragona
+* Tarragona
+* El Vendrell
+* Reus
+* Tortosa
+
+.Teruel
+* Teruel
+* Alcañiz
+
+.Toledo
+* Toledo
+* Talavera de la Reina
+
+.Valencia/València
+* València-Abastos
+* València-Hospital
+* València-Ruzafa
+* Alzira
+* Burjassot
+* Gandia
+* Mislata
+* Ontinyent
+* Paterna
+* Quart de Poblet
+* Sagunto/Sagunt
+* Torrent
+* Xàtiva
+* Xirivella-Aldaia-Alaquas
+
+.Valladolid
+* Valladolid (Fray Luis de Granada)
+* Valladolid-Delicias
+* Valladolid-Parquesol
+* Medina del Campo
+
+.Zamora
+* Zamora
+* Alcañices
+
+.Zaragoza
+* Zaragoza-Actur-Rey Fernando
+* Zaragoza-Arrabal
+* Zaragoza-Centro (Paseo de Teruel)
+* Zaragoza-Delicias
+* Zaragoza-San José
+* Calatayud
+* Ejea de Caballeros
+
+<<<
+
+include::good_practice_manual.adoc[leveloffset=+1]

@@ -1,0 +1,17 @@
+= Bibliografía
+
+* Agencia Española de Protección de Datos, \<<aepd.es>> [En línea]. Disponible: https://www.aepd.es/es/documento/estudio-hash-anonimidad.pdf [Último acceso: 2023].
+* Altare \<<altaresp.es>> [En línea]. Disponible: https://altaresp.es/que-es/captcha/ [Último acceso: 2023].
+* Boletín Oficial del Estado, \<<boe.es>> 27/04/2016 [En línea]. Disponible:  https://www.boe.es/doue/2016/119/L00001-00088.pdf [Último acceso: 2023].
+* Ciberpatrulla, \<<ciberpatrulla.com>> 16/03/2022 [En línea]. Disponible: https://ciberpatrulla.com/buscar-google/ [Último acceso: 2023].
+* El Otro Lado, \<<elotrolado.net>> 09/11/2007 [En línea]. Disponible: https://www.elotrolado.net/hilo_dni-que-empieza-por-070-quien-sabe_882834 [Último acceso: 2023].
+* El País, \<<elpais.com>> 10/12/2021 [En línea]. Disponible: https://elpais.com/economia/2021-12-10/los-pliegos-de-tres-concursos-publicos-incluian-al-ganador-en-los-metadatos-antes-de-adjudicarse.html [Último acceso: 2023].
+* Instituto Nacional de Ciberseguridad \<<incibe.es>> 09/07/2019 [En línea]. Disponible: https://www.incibe.es/empresas/blog/medidas-prevencion-ataques-denegacion-servicio [Último acceso: 2023].
+* Jurides, \<<jurides.com>> [En línea]. Disponible: https://www.jurides.com/curiosidades-dni/ [Último acceso: 2023].
+* Kaspersky, \<<kaspersky.es>> 18/12/2020 [En línea]. Disponible: https://www.kaspersky.es/about/press-releases/2021_menos-de-un-cafe-es-lo-que-cuesta-tu-historial-medico-en-la-darkweb [Último acceso: 2023].
+* Sundialdreams, \<<sundialdreams.com>> 31/12/2016 [En línea]. Disponible: https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/ [Último acceso: 2023]
+* Todo es electrónico, \<<inza.wordpress.com>> 11/12/2022 [En línea]. Disponible: https://inza.wordpress.com/2022/12/11/codificacion-de-los-numeros-de-identidad-de-los-ciudadanos-de-la-union-europea-en-los-certificados/ [Último acceso: 2023].
+* Xataka Móvil, \<<xatakamovil.com>> 03/07/2019 [En línea]. Disponible: https://www.xatakamovil.com/conectividad/cdn-que-es-para-que-sirve-y-por-que-no-rompe-con-la-neutralidad-de-la-red [Último acceso: 2023].
+* Wikipedia, \<<wikipedia.org>> [En línea]. Disponible: https://es.wikipedia.org/wiki/Seis_grados_de_separación [Último acceso: 2023].
+* Wikipedia, \<<wikipedia.org>> [En línea]. Disponible: https://es.wikipedia.org/wiki/Número_de_Bacon [Último acceso: 2023].
+* Wikipedia, \<<wikipedia.org>> [En línea]. Disponible: https://es.wikipedia.org/wiki/Documento_nacional_de_identidad_(Espa%C3%B1a) [Último acceso: 2023].

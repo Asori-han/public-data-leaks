@@ -1,0 +1,137 @@
+= Manual de buenas prácticas
+
+== ISO 27001
+
+[quote,AENOR]
+____
+Los Sistemas de Gestión de Seguridad de la Información (SGSI) son el medio más eficaz de minimizar los riesgos, al asegurar que se identifican y valoran los procesos de negocio y/o servicios de TI, activos y sus riesgos, considerando el impacto para la organización, y se adoptan los controles y procedimientos más eficaces y coherentes con la estrategia de negocio, considerando la mejora continua.
+
+Una gestión eficaz de la seguridad de la información permite garantizar:
+
+* Su confidencialidad, asegurando que sólo quienes estén autorizados puedan acceder a la información,
+* Su integridad, asegurando que la información y sus métodos de proceso son exactos y completos, y
+* Su disponibilidad, asegurando que los usuarios autorizados tienen acceso a la información y a sus activos asociados cuando lo requieran.
+
+La certificación del Sistema de Gestión de Seguridad de la Información de AENOR, de acuerdo a ISO/IEC 27001:2022, contribuye a fomentar las actividades de protección de sus sistemas y su información en las organizaciones, mejorando su imagen y generando confianza frente a terceros.
+____
+
+https://www.aenor.com/certificacion/tecnologias-de-la-informacion/seguridad-informacion[Certificación 27001 Aenor].
+
+== Protección de URLs
+
+No es una buena práctica guardar los archivos con de una página con nombre secuencial, pues pueden ser descargados de manera automática con facilidad.
+
+.URLs con nombres de archivo secuenciales
+[code]
+----
+https://www.ajmao.org/documents/documents/21298docpub.pdf
+https://www.ajmao.org/documents/documents/21299docpub.pdf
+----
+
+Una buena práctica sería la que se aplica en este otro caso: hay un número de ficha (36060) y después de la barra, el nombre del archivo, lo cual complica sustancialmente descargar la descarga masiva de archivos.
+
+.URLs con nombres de archivo no secuenciales
+[code]
+----
+https://seu.portsdebalears.gob.es/seuapb/fitxa/36060/procedimiento-gc-2022-03-bases
+----
+
+[[proteccion_censos]]
+== Protección de censos
+
+.Uso de hashes como alternativa al DNI
+El siguiente documento publicado por la Agencia Española de Protección de Datos, propone el uso de hashes para la seudoanonimización del DNI en los documentos públicos: https://www.aepd.es/es/documento/estudio-hash-anonimidad.pdf[Introducción al hash como técnica de seudoanonimización de datos personales]
+
+.Recomendaciones de la Universidad Complutense de Madrid
+Entre las recomendaciones para la protección de censos de la https://www.ucm.es/file/recomendaciones-de-proteccion-de-datos-facultad[UCM], encontramos la siguiente:
+
+.Protección de censos UCM
+image::images/buenas_practicas.png[Protección de censos UCM]
+
+Pese a ser insuficiente la anonimización del DNI, como ya se ha demostrado en el presente proyecto, es importante que en caso de seguir optando por esta vía, se utilice el formato que se indica entre las recomendaciones de la UCM, que es el más extendido según los documentos que se han analizado, puesto que alternar posiciones anonimizadas, facilitaría todavía más el proceso inverso de anonimización.
+
+.Censos públicos, previo registro
+Algunas universidades optan por restringir el acceso a los censos públicos si el usuario no se ha registrado previamente, lo que permite que sea consultado por profesores y estudiantes pero no por personas externas a la universidad.
+
+.Protección de censos Universidad de Granada
+image::images/buenas_practicas2.png[Protección de censos Universidad de Granada]
+
+https://secretariageneral.ugr.es/areas-gestion/procesos-electorales/listado/claustro-junta-facultad-consejos-dpto-delegacion-estudiantes/generales-2020-octubre/censo-electoral-provisional[Censo Universidad de Granada]
+
+.Protección de censos Universidad de Cádiz
+image::images/buenas_practicas3.png[Protección de censos Universidad de Cádiz]
+
+https://derecho.uca.es/wp-content/uploads/2022/11/nt_2022_11_02_00_Elecciones-delegados-curso-22-23-Calendario.pdf?u[Censo Universidad de Cádiz]
+
+== Denegaciones de servicio (DoS/DDoS)
+
+La siguiente entrada del blog de INCIBE, el Instituto Nacional de Ciberseguridad, explica medidas eficaces para la prevención de ataques Dos/DDos: https://www.incibe.es/empresas/blog/medidas-prevencion-ataques-denegacion-servicio[Medidas de prevención contra ataques de denegación de servicio].
+
+.Protección de la red interna
+
+* Ubicar el servidor web en una zona desmilitarizada (DMZ), evitando el acceso de intrusos a la red local en caso de vulneración del servicio web.
+* Implementar un IDS (sistema de detección de intrusos), un software que monitoriza las conexiones de red y alerta al administrador en caso de intentos de acceso no autorizados, un mal uso de los protocolos, escaneo de puertos, etc. Un IDS ampliamente utilizado y Open Source es https://www.snort.org[Snort].
+* Utilizar un software con funcionalidad mixta (antivirus, firewall, etc.) como https://www.incibe.es/empresas/blog/utm-firewall-ha-ido-al-gimnasio[UTM].
+
+.Protección del hosting
+En caso de utilizar un servicio externo de hosting, es importante verificar su configuración de seguridad, el nivel de seguridad de una página web lo define su eslabón más débil, bien sea el hosting o el propio diseño de la página.
+
+.Ancho de banda
+Disponer del mayor ancho de banda posible permite gestionar los picos de tráfico que pueden provocar una denegación de servicio (una denegación de servicio no siempre es consecuencia de un ataque).
+
+.Redundancia y balance de carga
+La redundancia consiste en tener el activo duplicado en más de un servidor y el balanceado de carga permite que se asigne a un servidor u otro en función de la carga de trabajo que esté soportando. Esta medida reduce los riesgos de sufrir uno de estos ataques, ya que al tener más de un servidor se reducirá la posibilidad de que se detenga debido a la sobrecarga. Además, aporta otras ventajas como la tolerancia a los fallos, ya que si un servidor cae, el total del trabajo lo asumiría el otro servidor.
+
+.Soluciones Cloud
+Existen soluciones basadas en la nube que actúan como intermediarios entre nuestro servicio web y los usuarios, interponiéndose también a ciberdelincuentes o bots. 
+
+También puede ser interesante la contratación de una CDN (Content Delivery Network), un conjunto de servidores ubicados en diferentes puntos de una red que contienen copias locales de ciertos contenidos (vídeos, imágenes, música, documentos, webs, etc.) que están almacenados en otros servidores generalmente alejados geográficamente, de forma que sea posible servir dichos contenidos de manera más eficiente. En el caso de instituciones de ámbito municipal, incluso provincial, podría ser innecesario e inviable, puesto que el ámbito geográfico de interés del contenido es reducido, pero es una opción más a contemplar, especialmente de cara a la redundancia y el balance comentados en el punto anterior.
+
+.Esquema del funcionamiento de una CDN
+image::images/cdn.png[Esquema CDN]
+
+== Prevención de bots
+
+.Uso de captchas
+Un captcha o Prueba de Turing Pública Completamente Automatizada para distinguir Humanos y Máquinas consiste en un rompecabezas que es muy sencillo de resolver para un humano, pero es mucho más complicado que un ordenador pueda hacerlo de forma automática. Si bien es cierto que los avances en inteligencia artificial han conseguido superar este tipo de pruebas, es un sistema que seguiría siendo válido en la mayoría de casos.
+
+.Captcha
+image::images/captcha.png[Captcha]
+
+.IDS
+Al igual que en el caso de las denegaciones de servicio, mediante un IDS se puede analizar el tráfico de la red a fin de evitar el acceso de bots no autorizados al servicio expuesto en internet.
+
+.robots.txt
+El archivo _robots.txt_ se sitúa en la raíz de las páginas web y se utiliza para indicar a los bots si les damos permiso o no para acceder a una sección de la página, se puede especificar incluso a qué bots les damos permiso y a cuales no. Es importante tener cuidado al introducir rutas en este archivo, puesto que también puede ser objeto de análisis por parte de un ciberdelincuente, de modo que no deberían listarse rutas que puedan dar acceso a un login de administración de la página o similar.
+
+User-agent es una cabecera utilizada en el protocolo HTTP(S), indica el nombre del navegador utilizado. El bot de Google, que utiliza el user-agent _Googlebot_, se encarga de consultar cada enlace de cada web para indexarlo en su motor de búsqueda, salvo que le indiquemos en el archivo _robots.txt_ que no tiene permiso para acceder.
+
+.Archivo robots.txt del Ayuntamiento de Madrid
+[code]
+----
+include::../docs/robots/robots_aymadrid.txt[]
+----
+
+En este ejemplo, podemos observar toda una lista de bots a los que se les deniega el permiso para indexar cualquier archivo de la página, entre ellos _YandexBot_, el bot del motor de búsqueda ruso Yandex.
+
+Adicionalmente a lo que ya se ha comentado en el apartado <<proteccion_censos>>, bajo mi punto de vista (habría que contrastar si existe alguna norma legal que lo impida), se deberían incluir, como archivos no autorizados para los motores de búsqueda, los censos, procedimientos de oposiciones y demás documentos públicos en los que aparezcan nombres de personas o DNIs (aun estando anonimizados). De este modo, para consultar este tipo de documentos, sería necesario hacerlo a través de la página del organismo que lo publique, impidiendo que al buscar el nombre o el DNI de una persona en Google o el motor que fuere, aparecieran como resultado todos aquellos documentos públicos en los que figure el nombre o el DNI de esa persona.
+
+== Gestión de metadatos
+
+Se recomienda borrar aquellos metadatos que no sean imprescindibles previamente a la entrega de cualquier documento, especialmente aquellos que puedan hacer referencia a la ruta de un archivo, nombre de usuario o versión del software utilizado.
+
+== Gestión de identidad
+
+Se propone la promoción del uso del certificado digital como medida de identificación en la empresa privada. Por ejemplo: requerir el certificado digital para la contratación de una línea de teléfono.
+
+Para aquellas personas que no dispongan de un ordenador con conexión a internet, la cual no se considera una necesidad según la legislación vigente sobre el Impuesto del Valor añadido, la propuesta incluye la habilitación de terminales de identificación en las Administraciones Públicas. En ellos, cualquier ciudadano podría firmar de modo seguro los contratos u operaciones que precisara, utilizándolos como si de un cajero automático se tratara.
+
+La firma de los contratos se realizaría a través del buzón de notificaciones de la Administración Pública.
+
+Esta medida debería ser implantada de forma progresiva. Así como se ha ido avanzando en la transición digital, eliminando el uso del papel, debería realizarse una transición a la firma electrónica. Para esta transición es imprescindible un plan de formación y promoción del uso del certificado digital para la ciudadanía.
+
+.Ejemplo de contratación de una línea de teléfono mediante el sistema propuesto.
+[plantuml, format=svg]
+----
+include::puml/telephone_contracting_flow.puml[]
+----
