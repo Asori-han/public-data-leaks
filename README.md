@@ -11,3 +11,7 @@ Superior degree of [Development of Web Applications](https://www.boe.es/diario_b
 # Generate project paper from Asciidoctor code
 ./generate-pdf.sh
 ```
+
+## Downloads
+* [Paper](https://asori.es/public/public-data-leaks/public-data-leaks.pdf)
+* [Presentation](https://asori.es/public/public-data-leaks/public-data-leaks.ppsx)

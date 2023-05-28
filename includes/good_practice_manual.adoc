@@ -109,7 +109,7 @@ User-agent es una cabecera utilizada en el protocolo HTTP(S), indica el nombre d
 .Archivo robots.txt del Ayuntamiento de Madrid
 [code]
 ----
-include::../docs/robots/robots_aymadrid.txt[]
+include::robots_aymadrid.txt[]
 ----
 
 En este ejemplo, podemos observar toda una lista de bots a los que se les deniega el permiso para indexar cualquier archivo de la página, entre ellos _YandexBot_, el bot del motor de búsqueda ruso Yandex.

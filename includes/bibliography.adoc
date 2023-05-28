@@ -15,3 +15,7 @@
 * Wikipedia, \<<wikipedia.org>> [En línea]. Disponible: https://es.wikipedia.org/wiki/Seis_grados_de_separación [Último acceso: 2023].
 * Wikipedia, \<<wikipedia.org>> [En línea]. Disponible: https://es.wikipedia.org/wiki/Número_de_Bacon [Último acceso: 2023].
 * Wikipedia, \<<wikipedia.org>> [En línea]. Disponible: https://es.wikipedia.org/wiki/Documento_nacional_de_identidad_(Espa%C3%B1a) [Último acceso: 2023].
+
+:link-with-underscores: @__hederagraph
+
+Ilustración de la portada realizada por Hedera. Instagram: https://www.instagram.com/__hederagraph/[{link-with-underscores}].
